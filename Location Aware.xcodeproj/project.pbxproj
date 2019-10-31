@@ -14,6 +14,7 @@
 		3D84C4B62024134200BD05EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D84C4B42024134200BD05EE /* LaunchScreen.storyboard */; };
 		3D84C4C12024134200BD05EE /* Location_AwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84C4C02024134200BD05EE /* Location_AwareTests.swift */; };
 		3D84C4CC2024134200BD05EE /* Location_AwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84C4CB2024134200BD05EE /* Location_AwareUITests.swift */; };
+		3D84C4DB2024136700BD05EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D84C4DA2024135D00BD05EE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D84C4C72024134200BD05EE /* Location AwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AwareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D84C4CB2024134200BD05EE /* Location_AwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AwareUITests.swift; sourceTree = "<group>"; };
 		3D84C4CD2024134200BD05EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D84C4DA2024135D00BD05EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D84C4DB2024136700BD05EE /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				3D84C4BF2024134200BD05EE /* Location AwareTests */,
 				3D84C4CA2024134200BD05EE /* Location AwareUITests */,
 				3D84C4A92024134200BD05EE /* Products */,
+				3D84C4D92024135D00BD05EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				3D84C4CD2024134200BD05EE /* Info.plist */,
 			);
 			path = "Location AwareUITests";
+			sourceTree = "<group>";
+		};
+		3D84C4D92024135D00BD05EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D84C4DA2024135D00BD05EE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
